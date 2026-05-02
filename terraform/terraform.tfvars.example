@@ -1,0 +1,10 @@
+aws_region         = "ap-northeast-2"
+project_name       = "eks-3tier"
+environment        = "dev"
+vpc_cidr           = "10.0.0.0/16"
+az_count           = 2
+enable_nat_gateway = false
+
+tags = {
+  Owner = "vph1005"
+}
